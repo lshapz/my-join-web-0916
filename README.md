@@ -22,7 +22,7 @@ animals
 #=> ["aardvark", "hedgehog", "wallaby"]
 ```
 
-It defaults to just putting every element into a string with no string inbetween if not passed an argument.
+It defaults to just putting every element into a string with no string in between if not passed an argument.
 
 ```ruby
 animals.my_join
