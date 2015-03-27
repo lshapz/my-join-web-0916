@@ -1,10 +1,8 @@
 class Array
 	def my_join(arg="")
-		final_string = ""
-		self.each_with_index do |element, i|
-			final_string << arg if i > 0
-			final_string << element.to_s
+		self.each.with_index.each_with_object("") do |(element, i), string|
+			element = i == 0 ? "#{element}" : "#{arg}#{element}" 
+			string << element
 		end
-		final_string
 	end
 end
