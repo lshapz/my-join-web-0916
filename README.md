@@ -43,3 +43,5 @@ You may not call on Ruby's `#join` method to accomplish this task.
 ## Resources
 
 * [Ruby's Join Method](http://ruby-doc.org/core-2.2.0/Array.html#method-i-join)
+
+<a href='https://learn.co/lessons/my-join' data-visibility='hidden'>View this lesson on Learn.co</a>
